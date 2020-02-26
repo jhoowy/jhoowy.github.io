@@ -152,20 +152,6 @@ domain adaptation 안한 것보다는 확실히 좋은 성능을 냈다
 SynthText가 ICDAR 2015와 도메인차이가 커서 ICDAR 2015에서는 자기들 모델이 더 좋은 성능을 냈고,  
 MSRA-TD500에서는 SynthText와 도메인차이가 작아서 기존의 TextSnake, RRD 모델이 더 좋은 성능을 보여줬다고 한다.
 
-SynthText가 80,000장인 만큼 상대적으로 훨씬 작은 데이터셋인 '10-AD-IC13' 으로 성능향상을 시켜서 detection 발전에 기여를 더 많이 했다고 하는데..
+SynthText가 80,000장인 만큼 상대적으로 훨씬 작은 데이터셋인 '10-AD-IC13' 으로 성능향상을 시켜서 detection 발전에 기여를 더 많이 했다고 주장함
 
-애초에 사용한 모델이 달라서 제대로 된 비교는 아닌 것 같고..
-
-주제가 domain adaptation인 만큼 소스 도메인이랑 타겟 도메인을 달리 한 평가표가 하나 더 있었으면 좋겠는데.. 쩝
-
-## 느낀점
-
-transformation 하고 빈 부분이 그럴싸하게 채워지는게 좀 신기했다
-
-이건 아마 타겟 도메인 데이터셋에 영향을 많이 받을 것 같은데.. 타겟 도메인 데이터 수가 적거나 하면 결과가 좀 달라질 듯
-
-Text detection에 적용하려면 소스 도메인이랑 타겟 도메인에 제약이 좀 있어야 할 것 같다.. 소스 도메인은 IC13처럼 텍스트만 찍혀야 할 듯
-
-궁금한게 이미지를 transformation하면 label (Boudning Box)도 같은 matrix로 transformation 해주나.. 그러면 될 것 같긴한데 논문엔 안쓰여있다
-
-암튼 그럼
+[arXiv](https://arxiv.org/abs/1907.09653)
